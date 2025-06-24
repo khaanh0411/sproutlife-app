@@ -1,0 +1,78 @@
+Sprout app
+
+Gamified life app
+
+1. Name: Sprout
+2. Theme: Plant, green theme with cute icon
+3. Widget: 1. daily checklist, 2. current growth progress, 3. rewards haven’t used
+4. Idea: the growing of a plant from seeding to become a mature plant.
+5. Content:
+    1. Brief Growth Progress: current level title, xp(gained and left and the next level that have to approach next, money, highest badge; expanded info that be hided in this section: other goods, equipments, rewards have gained and haven’t used.
+    2. Some other number of current treak, badges earned , multiplier, habits completed, milestone unlocked
+    3. calendar checklist: options to show: daily, week or month: with collections of all on-going daily/weekly/monthly quest, mini/tough challenges, short-term/ long-term goals including each rewards, xp, unlocked something when completed this.
+    4. Each categories seperated in each group system.
+    
+    **🔵 Health:**
+    
+    - Level-up based on reps per session (points-based XP)
+    - Daily/Weekly streaks (yoga, water intake, sleep schedule)
+    - Checklist tracking (vitamins, skincare, glutathione)
+    - HIIT, Pump, Yoga → XP + level-up system
+    - Drink water, Sleep early, Wake early → Streak → Badge
+    - Skincare, Sunbathing → Habit chain → Skin glow level
+    
+    **🟡 Finance:**
+    
+    - Progress bars for savings and income
+    - Achievement unlock at milestones (10M, 100M...)
+    - Passive income tracker with growth charts
+    - Emergency fund → Progress bar + Badge
+    - Main/Side Income → Milestone unlock
+    - Investments (Bitcoin, Gold...) → ROI milestone + Tier system
+    - House/Car → Goal unlock → Progress stage
+    
+    **🟠 Family:**
+    
+    - Goal-linked tracker: emergency fund → monthly spending → family budget
+    - Shared missions (A Ca + Tui)
+    - Progress map: unlock household upgrades (home, repair, joy fund)
+    
+    **🟣 Personal Development:**
+    
+    - XP by content type: reading/watching/listening/learning by theme
+    - Sharing = multiplier (sharing reflections = x2 XP)
+    - Time-based streaks: meditation, language learning, emotional intelligence
+    - Rewards: Coffee date, mini-course, travel fund, new gear, "Compassion" title, glowing avatar effect
+    
+    e. Goal tracking:
+    
+    short-term/long-term goal ongoing and all others
+    
+    f. Rewards: ongoing to be done or used, the hidden section includes all the rewards.
+    
+    g. challenge board
+    
+    h. special quest: keep all list secret, that is created by the partner, will be set with a date set and special reward whenever the user unlocked or random choose from the list, it only be shown when has the fingerprint from the partner.
+    
+    1. recent achievements: that badges
+    
+    k. growth journey: level 1-10, with the xp set for each, increasingly, tick checkbox whenever it have been done.
+    
+    l. Rewards tiers: 1. 50 (money icon), 2. 100 (money icon), 3. 250 (money icon)
+    
+    m. Progress stats of team member: comparison of current treak, badges earned , multiplier, habits completed, milestone unlocked, current level title, xp(gained and left and the next level that have to approach next, money, highest badge, expanded info that be hided in this section: other goods, equipments, rewards have gained and haven’t used.
+    
+    n. rewards list: show in another tab: all the rewards list, each person has one list seperatedly, set by their own. Besides, partner set some, some may be showed, some secret ones may be hidden (unlocked with fingerprint of partner) it can be attached with challenge goal or not.
+    
+    6. 10 level pregression based on plant growth: 
+    
+    1. Seed
+    2. Sprout
+    3. Root
+    4. Shoot
+    5. Leaf
+    6. Stem
+    7. Bud
+    8. Flower
+    9. Fruit
+    10. Spore
