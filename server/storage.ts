@@ -163,7 +163,18 @@ export class MemStorage implements IStorage {
 
   async createUser(insertUser: InsertUser): Promise<User> {
     const id = this.currentUserId++;
-    const user: User = { ...insertUser, id, createdAt: new Date() };
+    const user: User = { 
+      id, 
+      createdAt: new Date(),
+      level: 1,
+      levelName: "Seed",
+      xp: 0,
+      coins: 0,
+      currentStreak: 0,
+      totalHabitsCompleted: 0,
+      badgesEarned: 0,
+      ...insertUser
+    };
     this.users.set(id, user);
     return user;
   }
@@ -188,7 +199,14 @@ export class MemStorage implements IStorage {
 
   async createCategory(insertCategory: InsertCategory): Promise<Category> {
     const id = this.currentCategoryId++;
-    const category: Category = { ...insertCategory, id };
+    const category: Category = { 
+      id,
+      level: 1,
+      xp: 0,
+      progress: 0,
+      streak: 0,
+      ...insertCategory
+    };
     this.categories.set(id, category);
     return category;
   }
@@ -216,10 +234,13 @@ export class MemStorage implements IStorage {
   async createHabit(insertHabit: InsertHabit): Promise<Habit> {
     const id = this.currentHabitId++;
     const habit: Habit = { 
-      ...insertHabit, 
       id, 
       createdAt: new Date(),
-      completedAt: null 
+      completedAt: null,
+      description: null,
+      xpReward: 50,
+      isCompleted: false,
+      ...insertHabit
     };
     this.habits.set(id, habit);
     return habit;
@@ -271,10 +292,13 @@ export class MemStorage implements IStorage {
   async createGoal(insertGoal: InsertGoal): Promise<Goal> {
     const id = this.currentGoalId++;
     const goal: Goal = { 
-      ...insertGoal, 
       id, 
       createdAt: new Date(),
-      completedAt: null 
+      completedAt: null,
+      categoryId: null,
+      isCompleted: false,
+      currentValue: 0,
+      ...insertGoal
     };
     this.goals.set(id, goal);
     return goal;
@@ -297,10 +321,13 @@ export class MemStorage implements IStorage {
   async createReward(insertReward: InsertReward): Promise<Reward> {
     const id = this.currentRewardId++;
     const reward: Reward = { 
-      ...insertReward, 
       id, 
       createdAt: new Date(),
-      claimedAt: null 
+      claimedAt: null,
+      description: null,
+      isAvailable: true,
+      isClaimed: false,
+      ...insertReward
     };
     this.rewards.set(id, reward);
     return reward;
